@@ -1,45 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Day 4</title>
+
+
 </head>
+
 <body>
-    
     <div>
-        
+        <!-- The <div> tag is a container element that groups together other HTML elements.
+            It doesn't affect the content directly but is useful for organizing and styling content. -->
+
         <form action="">
-            <input type="text" placeholder="Enter Your Name...">
-            <br><br>
-            <input type="email" placeholder="email">
-            <br><br>
-            <input type="password" placeholder="password">
-            <br><br>
-    
-            <input type="checkbox"> Selecting Your Gender is Mandetory
-            <br><br>
-    
-            <input type="radio" name="Male">Male
-            <input type="radio" name="Female">Female
-            <input type="radio" name="Others">Others
-            <br><br>
-    
-            <input type="date">
-            <br><br>
-    
-            <input type="range">
-            <br><br>
-    
-            <input type="file" >
-            <br><br>
-    
-            <input type="submit" value="Login">
+            <!-- The <form> tag creates a form, which is used to collect user input.
+                The "action" attribute normally specifies where the form data should be sent (e.g., a server). Here it's left empty. -->
+
+            <input type="text" placeholder="Enter Your Name..." />
+            <!-- The <input> tag creates an input field where users can enter data.
+                The "type" attribute defines the type of input (e.g., text, email, password).
+                The "placeholder" attribute provides a hint to the user about what to enter. -->
+
+            <br /><br />
+
+            <input type="email" placeholder="email" />
+            <!-- This <input> field is specifically for email addresses. The browser may provide validation based on the "email" type. -->
+
+            <br /><br />
+
+            <input type="password" placeholder="password" />
+            <!-- This <input> field is for passwords. The text entered here will be masked (e.g., shown as dots or asterisks). -->
+
+            <br /><br />
+
+            <input type="checkbox" /> Selecting Your Gender is Mandatory
+            <!-- The "checkbox" type creates a box that can be checked or unchecked.
+                It is used for multiple-choice options. -->
+
+            <br /><br />
+
+            <input type="radio" name="Male" />Male
+            <input type="radio" name="Female" />Female
+            <input type="radio" name="Others" />Others
+            <!-- The "radio" type creates a round button that can be selected.
+                Only one radio button in a group can be selected at a time.
+                The "name" attribute groups radio buttons together. -->
+
+            <br /><br />
+
+            <input type="date" />
+            <!-- The "date" type creates a date picker input, allowing users to select a date from a calendar. -->
+
+            <br /><br />
+
+            <input type="range" />
+            <!-- The "range" type creates a slider control for numeric input, allowing users to choose a value within a range. -->
+
+            <br /><br />
+
+            <input type="file" />
+            <!-- The "file" type allows users to select a file from their device to upload. -->
+
+            <br /><br />
+
+            <input type="submit" value="Login" />
+            <!-- The "submit" type creates a button that submits the form data when clicked.
+                The "value" attribute sets the text displayed on the button. -->
         </form>
 
     </div>
-
-
-
 </body>
+
 </html>
