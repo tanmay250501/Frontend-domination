@@ -33,7 +33,6 @@ Welcome to your journey into the world of **Frontend Development**! 🚀
 
 ## 🛠️ **Tools We’ll Use**
 - **Visual Studio Code**: Your go-to code editor for writing and managing your projects.
-- **Figma/Adobe XD**: Design your prototypes and mockups with professional tools.
 - **Chrome DevTools**: Debug and optimize your web pages with in-browser tools.
 - **npm/Yarn**: Manage your project dependencies with ease.
 
