@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5 - HTML5 semantics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- In this chapter we we will learn about HTML5 semantics  tags with live example -->
+    
+    <!-- The <nav> tag is used to define a section of the webpage that contains navigation links. -->
+    <nav>
+        <h3>Tanmay Sawwalakhe</h3>
+        <div class="links">
+            <!-- <a> tags define hyperlinks. Users can click these to navigate to different sections or pages. -->
+            <a href="#">Home</a><a href="#">About Us</a><a href="#">Contact</a>
+            <!-- The "href" attribute defines the destination of the link. In this example, "#" is a placeholder. -->
+        </div>
+    </nav>
+    
+    <!-- The <header> tag represents introductory content or a group of introductory elements. -->
+    <header>
+        <h3>The Industrialist</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores quas obcaecati voluptate reiciendis,
+           vero necessitatibus, sit commodi ut rerum deleniti dicta qui officia similique molestiae vitae a maxime,
+           magni doloremque ullam ratione suscipit maiores repudiandae animi odio. Est placeat reprehenderit
+           delectus rem quasi suscipit distinctio.</p>
+    </header>
+    
+    <!-- The <main> tag represents the main content of the <body> of the document. -->
+    <main>
+        <!-- The <video> tag is used to embed a video on the webpage.
+             The "src" attribute specifies the path to the video file.
+             The "autoplay" attribute makes the video start playing automatically.
+             The "muted" attribute mutes the video's sound by default.
+             The "loop" attribute makes the video play repeatedly. -->
+        <video src="sp.mp4" autoplay muted loop></video>
+
+        <!-- autoplay will automatically play our video only if it does not have any sound -->
+        <!-- muted will mute  sound / audio from our video -->
+        <!-- loop will will  continously play our video -->
+    </main>
+    
+    <!-- The <section> tag groups related content together within a webpage. -->
+    <section class="bgcol">
+        <!-- Content for this section could be added here -->
+    </section>
+    
+    <section>
+        <!-- The <article> tag represents a self-contained piece of content, such as a blog post or news article. -->
+        <article>
+            <h4>Article here</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, dolores?</p>
+        </article>
+    </section>
+    
+    <!-- The <aside> tag is used for content related to the main content but displayed separately, like a sidebar. -->
+    <aside>
+        <h5>Play Music</h5>
+        <!-- The <audio> tag embeds an audio file on the webpage.
+             The "controls" attribute adds play, pause, and volume controls to the audio player. -->
+        <audio src="song.mp3" controls></audio>
+    </aside>
+    
+    <!-- The <footer> tag defines the footer section of a webpage, often containing copyright information or links. -->
+    <footer>
+        Copyrighted content &copy; 2024
+        <!-- The "&copy;" is an HTML entity used to display the copyright symbol (©). -->
+    </footer>
+    </body>
+
+</html>
