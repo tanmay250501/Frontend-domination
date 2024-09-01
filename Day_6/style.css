@@ -1,0 +1,171 @@
+/* Boilerplate code for css to make your website perfect*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+/* Css Basics topics  */
+
+/* 
+0.units --> 
+px - pixels -- dont always use pixels as it is dificult to make website responsive, 
+% - percent --> takes spacing according to their parent class ,
+vw -view width --> takes spaces according to screen,
+vh - view height --> takes spaces according to screen ,
+em , rem;
+
+1. width and height --> ex: width:10px , height:400px;
+2. color & background color --> ex: background-color:red;
+3. font-family
+4. font-size
+5. line-height
+6. text-align
+7. padding
+8. mrgin
+9. border
+10. display
+11. position
+12. background
+13. flex pseudo-elements
+14. pseudo-classes 
+*/
+
+/* 0. Units */
+
+/* px - Pixels: Sets a fixed size for elements */
+.pixel-example {
+    width: 200px; /* Element width is 200 pixels */
+    height: 100px; /* Element height is 100 pixels */
+}
+
+/* % - Percent: Size relative to the parent element */
+.percent-example {
+    width: 50%; /* Element width is 50% of its parent's width */
+    height: 50%; /* Element height is 50% of its parent's height */
+}
+
+/* vw - View Width: Size relative to the viewport's width */
+.vw-example {
+    width: 50vw; /* Element width is 50% of the viewport's width */
+    height: 25vw; /* Element height is 25% of the viewport's width */
+}
+
+/* vh - View Height: Size relative to the viewport's height */
+.vh-example {
+    width: 50vh; /* Element width is 50% of the viewport's height */
+    height: 25vh; /* Element height is 25% of the viewport's height */
+}
+
+/* em - Relative to the font size of the element */
+.em-example {
+    font-size: 2em; /* Font size is twice the size of the element's current font size */
+    padding: 1em; /* Padding is equal to the font size */
+}
+
+/* rem - Relative to the root element's font size */
+.rem-example {
+    font-size: 1.5rem; /* Font size is 1.5 times the root element's font size */
+    margin-bottom: 2rem; /* Bottom margin is twice the root element's font size */
+}
+
+/* 1. Width and Height */
+.width-height-example {
+    width: 300px; /* Fixed width of 300 pixels */
+    height: 200px; /* Fixed height of 200 pixels */
+}
+
+/* 2. Color & Background Color */
+.color-example {
+    color: white; /* Text color is white */
+    background-color: black; /* Background color is black */
+}
+
+/* 3. Font Family */
+.font-family-example {
+    font-family: 'Arial', sans-serif; /* Font family is set to Arial, with a fallback to sans-serif */
+}
+
+/* 4. Font Size */
+.font-size-example {
+    font-size: 20px; /* Font size is set to 20 pixels */
+}
+
+/* 5. Line Height */
+.line-height-example {
+    line-height: 1.5; /* Sets the space between lines of text to 1.5 times the font size */
+}
+
+/* 6. Text Align */
+.text-align-example {
+    text-align: center; /* Centers the text horizontally */
+}
+
+/* 7. Padding */
+.padding-example {
+    padding: 20px; /* Adds 20 pixels of space inside all sides of the element */
+}
+
+/* 8. Margin */
+.margin-example {
+    margin: 30px; /* Adds 30 pixels of space outside all sides of the element */
+}
+
+/* 9. Border */
+.border-example {
+    border: 2px solid blue; /* Adds a 2-pixel-wide solid blue border around the element */
+}
+
+/* 10. Display */
+.display-example {
+    display: flex; /* Sets the element to use flexbox layout */
+    justify-content: center; /* Centers child elements horizontally */
+    align-items: center; /* Centers child elements vertically */
+}
+
+/* 11. Position */
+.position-example {
+    position: relative; /* Positions the element relative to its normal position */
+    top: 20px; /* Moves the element down by 20 pixels */
+    left: 10px; /* Moves the element to the right by 10 pixels */
+}
+
+/* 12. Background */
+.background-example {
+    background: url('background.jpg') no-repeat center center; /* Sets a background image, centers it, and prevents repetition */
+    background-size: cover; /* Scales the image to cover the entire element */
+}
+
+/* 13. Flex */
+.flex-example {
+    display: flex; /* Applies flexbox layout */
+    justify-content: space-between; /* Distributes child elements with space between them */
+    align-items: center; /* Aligns child elements vertically in the center */
+}
+
+/* 14. Pseudo-elements */
+.pseudo-elements-example::before {
+    content: '★'; /* Adds a star before the element's content */
+    color: gold; /* Colors the star gold */
+    margin-right: 5px; /* Adds space between the star and the element's content */
+}
+
+/* 15. Pseudo-classes */
+.pseudo-classes-example:hover {
+    background-color: yellow; /* Changes the background color to yellow when the element is hovered over */
+}
+
+
+
+
+.main{
+    background-color: red;
+    width: 100%;
+    height: 300px;
+}
