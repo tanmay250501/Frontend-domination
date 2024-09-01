@@ -19,7 +19,8 @@ px - pixels -- dont always use pixels as it is dificult to make website responsi
 % - percent --> takes spacing according to their parent class ,
 vw -view width --> takes spaces according to screen,
 vh - view height --> takes spaces according to screen ,
-em , rem;
+em - empherial unit, 
+rem - Root empherial Unit;
 
 1. width and height --> ex: width:10px , height:400px;
 2. color & background color --> ex: background-color:red;
