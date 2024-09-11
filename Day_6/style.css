@@ -4,8 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Rubik Mono One", monospace;
-    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
     font-style: normal
 }
 
@@ -170,8 +170,54 @@ rem - Root empherial Unit;
 
 
 
-.main{
-    background-color: red;
-    width: 100%;
+/* **Important Notes:**
+
+1. **Padding**: Padding adds space **inside** an element, between the content and the border. Instead of adding padding directly to the element, it’s often better to add it to the **parent element**. 
+   
+   **Example**: Imagine you have a button inside a box, and you want space around the button's text. Instead of adding padding to the button, add it to the box.
+
+   ```html
+   <div style="padding: 20px;">
+      <button>Click me</button>
+   </div>
+   ```
+
+   Here, the padding creates space **inside the box**, making the button content look properly spaced.
+
+2. **Margin**: Margin adds space **outside** of an element. For instance, if you have two boxes and you want space **between them**, use margin.
+
+   **Example**: Let’s say you have two boxes side by side, and you want space between them.
+
+   ```html
+   <div style="margin-right: 20px;">Box 1</div>
+   <div>Box 2</div>
+   ```
+
+   Here, the margin creates space **outside of Box 1**, pushing it away from Box 2.
+
+In short:
+- Use **padding** for space inside an element.
+- Use **margin** for space outside an element. */
+
+h1{
+    margin-top: 20px;
+    text-decoration: line-through;
+
+    font-size: 2vw;
+}
+
+h2{
+    line-height: 2;
+    text-align: center;
+}
+
+#box{
+    padding: 30px;
+    margin: 30px;
+    width: 300px;
     height: 300px;
+    background-color: aqua;
+    border: 3px blue solid;
+    border-radius: 5%;
+
 }
